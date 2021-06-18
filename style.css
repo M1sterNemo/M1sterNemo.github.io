@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.second{
+    font-family: OpenSans;
+}
+
+.center{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0%;
+}
+.center-headers{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 65px;
+    background: rgb(244, 244, 244, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5);
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.menu{
+    font-family: OpenSans;
+}
+
+.menu a{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 48px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.first{
+    display: flex;
+    height: 100vh;
+    background: url("bg.jpg") center no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    color: white;
+    text-align: center;
+}
+
+.head span{
+    font-size: 16px;
+    font-family: Open Sans;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Bebas;
+    letter-spacing: 5.7px;
+}
+
+.second-center{
+    margin-top: 115px;
+    margin-bottom: 115px;
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    font-family: OpenSans;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+hr{
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    border-radius: 7px;
+    border: 2px solid #00A4E5;
+}
+
+.scroll{
+    font-family: OpenSans;
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    letter-spacing: 3.7px;
+}
+
+.block-1{
+    max-width: 405px;
+    text-align: left;
+}
+
+.block-1 span{
+    color: #00A4E5;
+}
+
+.block-1 p{
+    margin-top: 30px;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.block-1 b{
+    font-size: 20px;
+    letter-spacing: 0.1875px;
+}
+
+.block-2{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.gallery-1, .gallery-2, .gallery-3{
+    position: relative;
+    color: white;
+    font-size: 24px;
+    width: 144px;
+    height: 224px;
+    text-align: left;
+    background-color: gray;
+}
+
+.gallery-1{
+    background: url("block-1.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.gallery-2{
+    background: url("Bitmap.jpg") no-repeat center;
+    background-size: cover;
+    margin: 0 23px;
+}
+
+.gallery-3{
+    background: url("Map.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.gallery-1 b{
+    position: absolute;
+    top: 15px;
+    left: 14px;
+}
+
+.gallery-2 b{
+    position: absolute;
+    top: 15px;
+    left: 14px;
+}
+
+.gallery-3 b{
+    position: absolute;
+    top: 15px;
+    left: 14px;
+}
+.second-layer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 76px;
+    margin-top: 70px;
+}
+
+.our-cap{
+    margin-top: 120px;
+}
+
+.our-cap-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-cap-head div{
+    text-align: left;
+}
+
+.our-cap-head button{
+    width: 150px;
+    border: none;
+    height: 40px;
+    background: #00A4E5;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.5px;  
+}
+
+.our-cap-head span{
+    line-height: 19px;
+    font-size: 11px;
+    max-width: 405px;
+    margin-right: 32px;
+}
+
+.our-cap-head-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-cap-content{
+    margin-top: 78px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+
+.our-cap-block{
+    text-align: left;
+    border: 1px solid #E6E6E6;
+}
+
+.our-cap-block div{
+    margin: 38px 28px;
+}
+
+.our-cap-block h3{
+    font-size: 16px;
+    letter-spacing: 0.42;
+    color: #48555B;
+    margin: 25px 0 13px 0;
+    line-height: 24px;
+}
+
+.our-cap-block span{
+    color: #48555B;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.want{
+    font-family: OpenSans;
+    height: 500px;
+    background: url("Back.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.want b{
+    padding-top: 120px;
+    display: block;
+    font-size: 30px;
+    line-height: 36px;
+    color:#48555B;
+    letter-spacing: 0.5px;
+}
+
+.want button{
+    margin-top: 35px;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+.want div{
+    max-width: 350px;
+    padding-top: 120px;
+    margin: auto;
+}
+
+footer{
+    font-family: OpenSans;
+    margin-top: -1px;
+}
+
+.footer-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171819;
+    height: 100px;
+}
+
+.footer-input b{
+    font-size: 22px;
+    letter-spacing: 0.84px;
+    color: white;
+}
+
+.email-input{
+    margin-left: 70px;
+    height: 40px;
+    border: 1px solid #979797;
+    border-right: none;
+    font-size: 14px;
+    padding-left: 16px;
+    outline: none;
+    width: 250px;
+    vertical-align: middle;
+}
+
+.input-button{
+    margin-left: -4px;
+    height: 40px;
+    border: none;
+    width: 150px;
+    background-color: #00A4E5;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.designed{
+    font-family: OpenSans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171819;
+    height: 60px;
+    font-size: 11px;
+    color: white;
+}
+
+.site-map-center{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0 50px 0;
+}
+
+.site-map{
+    background-color: #141A20;
+}
+
+.footer-head{
+    max-width: 250px;
+}
+
+.site-map, .site-map a{
+    color: white;
+    text-decoration: none;
+}
+
+.site-map, .site-map span{
+    font-size: 11px;
+    letter-spacing: 0.85px;
+}
+
+.site-map span, .site-map a{
+    display: block;
+}
+
+.links a{
+    text-transform: uppercase;
+}
+
+.links-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+
+.social a{
+    filter: grayscale(1) brightness(5);
+}
+
+.site-map, .site-map a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact, .site-map span{
+    font-size: 11px;
+    letter-spacing: 0.85px;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("font/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("font/Bebas.ttf") format("truetype");
+}
