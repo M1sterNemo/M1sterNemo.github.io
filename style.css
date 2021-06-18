@@ -393,10 +393,10 @@ footer{
 
 @font-face {
     font-family: "OpenSans";
-    src: url("font/OpenSans-Regular.ttf") format("truetype");
+    src: url("OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Bebas";
-    src: url("font/Bebas.ttf") format("truetype");
+    src: url("Bebas.ttf") format("truetype");
 }
